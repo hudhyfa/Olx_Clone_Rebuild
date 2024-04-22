@@ -1,0 +1,78 @@
+.loginParentDiv {
+  padding: 10px;
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 12px;
+
+}
+
+.login-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.loginParentDiv form label {
+  font-size: large;
+  font-weight: 300;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #002f34;
+  margin-bottom: 10px;
+}
+  
+.loginParentDiv button {
+  width: 100%;
+  height: 48px;
+  background-color: #002f34;
+  color: whitesmoke;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  transition: 0.3s all ease-in-out;
+  margin-bottom: 10px;
+}
+.loginParentDiv button:hover {
+  background-color: white;
+  color: #002f34;
+  border: 1px solid #002f34;
+  cursor: pointer;
+}
+
+.loginParentDiv span {
+  width: 70%;
+  margin: auto;
+}
+
+.loginParentDiv a {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.olx-ad  {
+  width: 50%;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.olx-ad img{
+  width: 100%;
+  height: 85%;
+  border-radius: 12px;
+}
+
+.signup-link {
+  width: 55%;
+  margin: auto;
+}
