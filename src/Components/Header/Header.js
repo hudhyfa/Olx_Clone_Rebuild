@@ -67,6 +67,7 @@ function Header() {
             }}
             onClick={() => {
               firebase.auth().signOut();
+              alert("You have been logged out");
               history.push("/");
             }}
           >
