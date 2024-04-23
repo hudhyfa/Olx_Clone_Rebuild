@@ -13,6 +13,10 @@ export default function Signup() {
   const { firebase } = FirebaseContextHook();
 
   const handleSubmit = (e) => {
+    if(!email || !password || !phone || !userName) {
+      alert("please fill all details");
+      return;
+    }
     e.preventDefault();
     firebase
       .auth()

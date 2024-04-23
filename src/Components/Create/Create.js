@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useContext } from "react";
+import React, { Fragment, useState, useContex } from "react";
 import { FirebaseContextHook, AuthContext } from "../../store/Context";
 import { useHistory } from "react-router-dom";
 import "./Create.css";
@@ -18,6 +18,10 @@ const Create = () => {
 
   const date = new Date();
   const handleSubmit = () => {
+  if(!name || !category || !price || !image || !description) {
+    alert("please enter all fields.");
+    return;
+  }
     firebase
       .storage()
       .ref(`/image/${image.name}`)
